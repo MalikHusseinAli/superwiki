@@ -1,6 +1,6 @@
 # SUPERWIKI Educational Project
 
-## Author: Ed de Almeida (edvaldoajunior@gmail.com)
+## Author: Malik Hussein Ali (malik.hussein.ali.68@gmail.com)
 
 This project is an example of how we can use NodeJS together with ReactJS. 
 
