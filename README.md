@@ -1,15 +1,14 @@
-# Projeto didático SUPERWIKI
+# SUPERWIKI Educational Project
 
 ## Author: Ed de Almeida (edvaldoajunior@gmail.com)
 
-Este projeto é um exemplo de como podemos usar o NodeJS em conjunto com o ReactJS. 
+This project is an example of how we can use NodeJS together with ReactJS. 
 
-A base dele é uma aplicação NodeJS, mas no diretório **client/** desta aplicação nós temos uma aplicação ReactJS criada com Vite. O arquivo de configuração do Vite (vite.config.ts) foi modificado para que gere os seus resultados do siretório **public/** da aplicação NodeJS, que está sendo servido como base dos arquivos estáticos pela aplicação NodeJS.
+Its foundation is a NodeJS application, but in the **client/** directory of this application we have a ReactJS application created with Vite. The Vite configuration file (vite.config.ts) has been modified to output its build results directly into the **public/** directory of the NodeJS application, which is served as the base for static files by the NodeJS application.
 
-Dessa forma o NodeJS pode servir API e páginas ao mesmo tempo. Basta que as rotas de API sejam prefixadas com **/api/**, enquanto a SPA (Single Page Application) roda a partir de **public/**, sem qualquer prefixo.
+This way, NodeJS can serve both the API and the pages at the same time. It just requires that API routes are prefixed with **/api/**, while the SPA (Single Page Application) runs from **public/** without any prefix.
 
-Arquivos compactados com esse boilerplate inicial podem ser encontrados em:
+Compressed archives with this initial boilerplate can be found at:
 
-- Formato ZIP: 
-- Formato tar.gz: 
-
+- ZIP format:
+- tar.gz format:
